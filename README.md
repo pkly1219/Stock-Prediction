@@ -33,17 +33,17 @@ SVR models were used to predict stock prices based on a set of features derived 
 
 ## Results
 
-1. SVR (Support Vector Regression):
+### 1. SVR (Support Vector Regression):
 
-Linear SVR, Polynomial SVR, and RBF SVR were applied, but the RBF SVR achieved the highest accuracy (50%).
+Linear SVR, Polynomial SVR, and RBF SVR were applied, but the RBF SVR achieved the highest accuracy of **50%**.
 
-2. SVC (Support Vector Classification):
+### 2. SVC (Support Vector Classification):
 
-The SVC model performed slightly better than the SVR, with an accuracy of 52%.
+The SVC model performed slightly better than the SVR, with an accuracy of **52%**.
 
-3. Random Forest Classifier:
+### 3. Random Forest Classifier:
 
-This model significantly outperformed both SVR and SVC, with an accuracy of 79%.
+This model significantly outperformed both SVR and SVC, with an accuracy of **79%**.
 
 ## Installation and Setup
 

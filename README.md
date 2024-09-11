@@ -1,4 +1,4 @@
-# Predict Stock Prices
+# Stock Prediction
 
 This project demonstrates the prediction of stock prices using three different machine learning models: Support Vector Regression (SVR), Support Vector Classification (SVC), and Random Forest Classifier (RFC). The models were trained on historical stock data and evaluated based on their accuracy.
 

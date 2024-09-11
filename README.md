@@ -35,7 +35,7 @@ SVR is a type of Support Vector Machine (SVM) used for regression tasks. It atte
 
 ### 1. SVR (Support Vector Regression):
 
-Linear SVR, Polynomial SVR, and RBF SVR were applied, but the RBF SVR achieved the highest accuracy of **50%**.
+Linear SVR, Polynomial SVR, and RBF SVR were applied, but the RBF SVR achieved the highest accuracy which is **50%**.
 
 ### 2. SVC (Support Vector Classification):
 

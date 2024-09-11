@@ -7,8 +7,11 @@ This project demonstrates the prediction of stock prices using three different m
 The goal of the project is to predict stock price movements using machine learning techniques. Three methods were implemented and evaluated in separate Jupyter notebooks:
 
 Support Vector Regression (SVR): Achieved a **50%** accuracy.
+
 Support Vector Classification (SVC): Achieved a **52%** accuracy.
+
 Random Forest Classifier (RFC): Achieved the highest accuracy of **79%**.
+
 The models were built and evaluated using a dataset that includes historical stock price data, such as the adjusted closing price over time.
 
 ## Methods

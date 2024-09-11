@@ -37,7 +37,7 @@ This model significantly outperformed both SVR and SVC, with an accuracy of 79%.
 ## Installation and Setup
 Clone this repository.
 
-git clone https://github.com/yourusername/PredictStock.git
+git clone [https://github.com/yourusername/PredictStock.git](https://github.com/pkly1219/StockProject.git)
 
 Run the Jupyter notebooks in the following order:
 

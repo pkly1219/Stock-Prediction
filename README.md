@@ -6,30 +6,30 @@ This project demonstrates the prediction of stock prices using three different m
 
 The goal of the project is to predict stock price movements using machine learning techniques. Three methods were implemented and evaluated in separate Jupyter notebooks:
 
-Support Vector Regression (SVR): Achieved a **50%** accuracy.
+Support Vector Regression (SVR)
 
-Support Vector Classification (SVC): Achieved a **52%** accuracy.
+Support Vector Classification (SVC)
 
-Random Forest Classifier (RFC): Achieved the highest accuracy of **79%**.
+Random Forest Classifier (RFC)
 
 The models were built and evaluated using a dataset that includes historical stock price data, such as the adjusted closing price over time.
 
 ## Methods
 
 ### 1. Support Vector Regression (SVR)
+SVR is a type of Support Vector Machine (SVM) used for regression tasks. It attempts to find a function that deviates from the actual data points by a value no greater than a specified threshold. SVR can be applied with different kernels to model the data in various ways.
+- Linear SVR: Fits a straight line to the data. This model assumes that the relationship between the input features and the target variable is linear
+- Polynomial SVR: Models the relationship between the features and target variable using a polynomial function, allowing for more complex relationships.
+- RBF SVR (Radial Basis Function): Uses a non-linear kernel that transforms the feature space, allowing it to capture more complex patterns in the data.
 
-- Linear SVR
-- Polynomial SVR
-- RBF SVR
-SVR models were used to predict stock prices based on a set of features derived from historical stock data. Linear, polynomial, and RBF kernels were applied. The best accuracy achieved was 50%.
 
 ### 2. Support Vector Classification (SVC)
 
-  SVC was used to classify stock movement as either up or down. The accuracy was slightly better than SVR, reaching 52%.
+ SVC is a classification technique that constructs a hyperplane or set of hyperplanes in a high-dimensional space to separate data into different classes. For this project, SVC was used to classify the direction of stock price movement (up or down)
 
 ### 3. Random Forest Classifier (RFC)
 
-  RFC performed the best in this project, with an accuracy of 79%. This model is based on an ensemble of decision trees, making it robust to overfitting and capable of capturing more complex patterns in the data.
+ RFC is an ensemble learning method used for classification. It operates by constructing multiple decision trees during training and outputs the class that is the mode of the classes (for classification) of the individual trees
 
 ## Results
 
@@ -66,8 +66,13 @@ Each notebook can be executed to run the corresponding model. The notebooks cont
 The project requires the following Python packages:
 
 numpy
+
 pandas
+
+scikit-learn
+
 matplotlib
+
 seaborn
 
 ## Conclusion
